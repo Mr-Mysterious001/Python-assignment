@@ -1,4 +1,7 @@
-str=input("Enter a sentence")
+str=input("Enter a sentence ")
 str=str.lower()
-v=str.count('a')+str.count('e')+str.count('i')+str.count('o')+str.count('u')
-print('No. of vowels in the sentence is: ', v)
+v=0
+for ch in str:
+    if (ch=='a') or (ch=='e') or (ch=='i') or (ch=='o') or (ch=='u'):
+        v+=1
+print('No. of vowels: ', v)
