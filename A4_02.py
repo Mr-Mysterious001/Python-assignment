@@ -1,4 +1,4 @@
-str=input("Enter a string")
+str=input("Enter a string").lower()
 str1=''
 for i in str:
     str1= i+str1
